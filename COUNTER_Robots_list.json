@@ -211,6 +211,11 @@
     "last_changed": "2017-08-08"
   },
   {
+    "pattern": "Citoid",
+    "last_changed": "2020-02-25",
+    "url": "https://www.mediawiki.org/wiki/Citoid"
+  },
+  {
     "pattern": "cloakDetect",
     "last_changed": "2017-08-08"
   },
@@ -309,6 +314,11 @@
   {
     "pattern": "Download\\+Master",
     "last_changed": "2017-08-08"
+  },
+  {
+    "pattern": "Drupal",
+    "last_changed": "2020-07-20",
+    "description": "Drupal is a content management system. Some Drupal instances perform harvesting or crawling of web resources and should be ignored."
   },
   {
     "pattern": "DSurf",
@@ -661,7 +671,8 @@
     "last_changed": "2018-12-13"
   },
   {
-    "pattern": "mail.ru",
+    "pattern": "mail\\.ru",
+    "url": "https://help.mail.ru/webmaster/indexing/robots.txt/rules/user-agent",
     "last_changed": "2017-08-08"
   },
   {
@@ -815,8 +826,8 @@
     "last_changed": "2020-07-02"
   }, 
   {
-    "pattern": "^okhttp$",
-    "last_changed": "2018-02-15",
+    "pattern": "okhttp",
+    "last_changed": "2020-02-25",
     "description": "okhttp is a Java HTTP client library.",
     "url": "http://square.github.io/okhttp/"
   },
@@ -841,11 +852,16 @@
     "last_changed": "2017-08-08"
   },
   {
+    "pattern": "^Pattern\\/\\d",
+    "last_changed": "2020-02-25",
+    "url": "https://www.clips.uantwerpen.be/pattern"
+  },
+  {
     "pattern": "Pcore-HTTP",
     "last_changed": "2019-11-19"
   },
   {
-    "pattern": "pear.php.net",
+    "pattern": "pear\\.php\\.net",
     "last_changed": "2017-08-08"
   },
   {
@@ -982,6 +998,11 @@
     "last_changed": "2017-08-08"
   },
   {
+    "pattern": "sqlmap",
+    "last_changed": "2020-02-25",
+    "url": "https://github.com/sqlmapproject/sqlmap"
+  },
+  {
     "pattern": "Strider",
     "last_changed": "2017-08-08"
   },
@@ -1031,8 +1052,19 @@
     "last_changed": "2017-08-08"
   },
   {
+    "pattern": "Turnitin",
+    "last_changed": "2020-07-01",
+    "description": "This robot collects content from the Internet for the sole purpose of helping educational institutions prevent plagiarism.",
+    "url": "https://turnitin.com/robot/crawlerinfo.html"
+  },
+  {
     "pattern": "twiceler",
     "last_changed": "2017-08-08"
+  },
+  {
+    "pattern": "Typhoeus",
+    "last_changed": "2020-02-25",
+    "url": "https://github.com/typhoeus/typhoeus"
   },
   {
     "pattern": "ucsd",
@@ -1095,7 +1127,9 @@
     "last_changed": "2017-08-08"
   },
   {
-    "pattern": "w3af.org",
+    "pattern": "w3af\\.org",
+    "description": "Web Application Attack and Audit Framework",
+    "url": "https://w3af.org/",
     "last_changed": "2017-08-08"
   },
   {
@@ -1206,22 +1240,27 @@
   {
     "pattern": "zyborg",
     "last_changed": "2017-08-08"
-   },
+  },
   {
     "pattern": "Mozilla.5.0 .Windows. U. Windows NT 5.1. ru. rv.1.8.1.11. Gecko.20071127 Firefox.2.0.*",
     "last_changed": "2019-02-28"
   },
-   {
+  {
     "pattern": "Mozilla.5.0 .X11. U. Linux i686. en-US. rv:1.2.1. Gecko/20021204*",
     "last_changed": "2019-03-15"
   },
-   {
+  {
     "pattern": "HTTP-Tiny.0.07*",
     "last_changed": "2019-03-15"
   },
-   {
+  {
     "pattern": "UB T.*bingen C\\+\\+ Downloader",
     "last_changed": "2019-04-15",
     "description": "UB TÃ¼bingen C++ Downloader; Tübingen; up to 100.000 document downloads on DNB-objects in 2019-01-01 to 2019-04-09"
+  },
+  {
+    "pattern": "7siters",
+    "last_changed": "2020-02-25",
+    "url": "https://7ooo.ru/siters"
   }
 ]
